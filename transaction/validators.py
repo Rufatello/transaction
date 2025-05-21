@@ -2,13 +2,12 @@ from django.core.exceptions import ValidationError
 from django.utils import timezone
 import datetime
 
-def time_validation(value):  # Renamed for clarity
-    """Validates a datetime value, ensuring it's in the past and timezone-aware."""
+
+def time_validation(value):
     if not value:
         return value
-
-    if isinstance(value, datetime.date):  # Handle date objects
-        value = datetime.datetime.combine(value, datetime.time.min)  # Convert to datetime
+    if isinstance(value, datetime.date):
+        value = datetime.datetime.combine(value, datetime.time.min)
 
     if timezone.is_naive(value):
         value = timezone.make_aware(value)
@@ -18,7 +17,6 @@ def time_validation(value):  # Renamed for clarity
     return value
 
 
-
 def negative_amount(value):
     if value >= 0:
         raise ValidationError('Сумма не может быть положительной или равняться 0')
@@ -26,7 +24,6 @@ def negative_amount(value):
 
 
 def date_validation(from_date, to_date):
-    """Проверяет корректность диапазона дат"""
     if not isinstance(from_date, datetime.date) or not isinstance(to_date, datetime.date):
         raise TypeError("from_date and to_date must be datetime.date objects")
 

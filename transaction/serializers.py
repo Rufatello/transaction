@@ -53,7 +53,6 @@ class UserSerializers(serializers.ModelSerializer):
         }
 
     def to_representation(self, instance):
-        """Добавляем статистику в ответ"""
         data = super().to_representation(instance)
         stats = self.get_calculate(
             user_id=self.validated_data['user_id'],
