@@ -25,7 +25,7 @@ def negative_amount(value):
 
 def date_validation(from_date, to_date):
     if not isinstance(from_date, datetime.date) or not isinstance(to_date, datetime.date):
-        raise TypeError("from_date and to_date must be datetime.date objects")
+        raise TypeError("from_date и to_date должны быть объектами datetime.date")
 
     if from_date > to_date:
         raise ValidationError('Конечная дата не может быть раньше начальной')
