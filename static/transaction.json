@@ -1,0 +1,90 @@
+[
+  {
+    "id": "TX0051",
+    "user": 7,
+    "category": "FOOD",
+    "timestamp": "2024-11-27T09:00:00",
+    "currency": "RUB",
+    "amount": -30050.00,
+    "description": "деловые линии"
+  },
+  {
+    "id": "TX0052",
+    "user": 7,
+    "timestamp": "2024-11-27T18:30:00",
+    "currency": "RUB",
+    "amount": -200.00,
+    "description": "ЖКХ"
+  },
+  {
+    "id": "TX0053",
+    "user": 7,
+    "category": "ENTERTAINMENT",
+    "timestamp": "2024-11-27T18:30:00",
+    "currency": "RUB",
+    "amount": -4850.00,
+    "description": "ЖКХ"
+  },
+  {
+    "id": "TX0054",
+    "user": 7,
+    "category": "UTILITIES",
+    "timestamp": "2024-11-29T11:00:00",
+    "currency": "RUB",
+    "amount": -1500.00,
+    "description": "Оплата электроэнергии"
+  },
+  {
+    "id": "TX0055",
+    "user": 7,
+    "category": "OTHER",
+    "timestamp": "2024-11-29T16:00:00",
+    "currency": "RUB",
+    "amount": -500.00,
+    "description": "Покупка книги по программированию"
+  },
+  {
+    "id": "TX0056",
+    "user": 7,
+    "category": "FOOD",
+    "timestamp": "2024-11-30T13:00:00",
+    "currency": "RUB",
+    "amount": -480.00,
+    "description": "Обед в пиццерии"
+  },
+  {
+    "id": "TX0057",
+    "user": 7,
+    "timestamp": "2025-12-01T09:30:00",
+    "currency": "RUB",
+    "amount": -180.00,
+    "description": "кафе"
+  },
+  {
+    "id": "TX0058",
+    "user": 7,
+    "category": "ENTERTAINMENT",
+    "timestamp": "2024-12-01T17:00:00",
+    "currency": "RUB",
+    "amount": -4200.00,
+    "description": "Посещение музея"
+  },
+  {
+    "id": "TX0059",
+    "user": 7,
+    "category": "UTILITIES",
+    "timestamp": "2024-12-01T17:00:00",
+    "currency": "RUB",
+    "amount": -799.00,
+    "description": "Оплата интернета"
+  },
+  {
+    "id": "TX0060",
+    "user": 3,
+    "category": "OTHER",
+    "timestamp": "2024-12-02T15:00:00",
+    "currency": "RUB",
+    "amount": -320.00,
+    "description": "Покупка наушников"
+  }
+]
